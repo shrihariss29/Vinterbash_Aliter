@@ -1,0 +1,231 @@
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+   to {
+    opacity:1
+  }
+}
+
+/*Events.js*/
+.event {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 13%;
+  margin-right: 13%;
+  padding: 3%;
+  border-radius: 3%;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+.eventimage {
+  width: 200px;
+  height: 250px;
+}
+.eventcontent p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+
+/*Home.js*/
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.sponsor img {
+  border-radius: 10%;
+  margin-top: 5%;
+  width: 10vw;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+#Vinter {
+  font-family: "Black Ops One", system-ui; 
+  color: #FF6500;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 10vw;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+#theme {
+  font-family: "Jost", sans-serif;
+  color: #121481;
+  margin-top: -2%;
+  text-align: center;
+  width:100%;
+  height: auto;
+  font-size: 4vw;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+.homeabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 2vw; 
+}
+.hometitle
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 3vw; 
+}
+
+
+
+/*Leaderboard.js*/
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 1px solid #ddd; 
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.table th, .table td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+}
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:antiquewhite;
+  color: black;
+}
+.tabledata
+{
+  font-family: "Jost", sans-serif;
+}
+.Leaderboard
+{
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+
+
+/*Navbar.js*/
+.navele {
+  color: black;
+  font-weight: 3000;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Black Ops One", system-ui;
+}
+.brand-logo {
+  height: 40px;
+  width: auto;
+  border-radius: 5%;
+  width: 130px;
+  height: 50px;
+}
+
+
+/*Sponsors.js*/
+.homesabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Jost", sans-serif;
+}
+.sponsorgrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  margin: 20px;
+}
+.sponsorgrid img {
+  width: 212.75px;
+  height: 78.75px;
+  border-radius: 5%;
+}
+
+@media(max-width:1100px)
+{
+  /*Events.js*/
+  .event {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    color: #7d062d;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 5%;
+    border-radius: 3%;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventimage {
+    width: 200px;
+    height: 250px;
+  }
+  .eventcontent p {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+  }
+
+
+/*Sponsors.js*/
+.homesabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
+.sponsorgrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 10px;
+  margin: 20px;
+}
+.sponsorgrid img {
+  width: 212.75px;
+  height: 78.75px;
+  border-radius: 5%;
+}
+
+/*Home.js*/
+
+}
