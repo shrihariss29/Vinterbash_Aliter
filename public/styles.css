@@ -32,6 +32,7 @@
 
 
 /*Home.js*/
+
 .sponsor {
   display: flex;
   flex-direction: row;
@@ -70,6 +71,18 @@
   font-size: 4vw;
   animation-name: fade;
   animation-duration: 5s;
+}
+.carousel
+{
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+}
+.carousel img
+{
+  width:100%;
 }
 .homeabout {
   display: flex;
@@ -227,5 +240,28 @@
 }
 
 /*Home.js*/
-
+.homeabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 3vw; 
+}
+.hometitle
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Jost", sans-serif;
+  font-size: 6vw; 
+}
 }
