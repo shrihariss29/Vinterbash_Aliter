@@ -159,6 +159,13 @@
   width: 130px;
   height: 50px;
 }
+.custom-toggle {
+  border: none;
+  background-color:#FF6500;
+  outline: none;
+}
+
+
 
 
 /*Sponsors.js*/
