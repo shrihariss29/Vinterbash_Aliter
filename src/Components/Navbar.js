@@ -13,12 +13,14 @@ function Navb() {
         <Container>
           {showBrand && (
             <Navbar.Brand href="/">
+            <div>
               <img src={require('../assets/vinterlogo.png')} alt='Osa logo' className="brand-logo" />
+            </div>
             </Navbar.Brand>
           )}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto custom-toggle"/>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="ml-auto" >
               <Nav.Link className="navele" id="navele1" href="/events">EVENTS</Nav.Link>
               <Nav.Link className="navele" id="navele2" href="/leaderboard">LEADERBOARD</Nav.Link>
               <Nav.Link className="navele" id="navele3" href="/Sponsors">OUR SPONSORS</Nav.Link>
